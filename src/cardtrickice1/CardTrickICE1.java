@@ -18,6 +18,9 @@ import java.util.Scanner;
  */
 public class CardTrickICE1 {
     public static void main(String[] args) {
+        Card luckyCard = new Card();
+        luckyCard.setValue(5);
+        luckyCard.setSuits("diamonds");
         
         Card[] magicHand = new Card[7]; //Array of object
         ArrayList<String> t_suite = new ArrayList<String>();
